@@ -8,6 +8,7 @@ import { Navbar } from '@/components/navbar';
 import { I18nProvider } from '@/lib/i18n-context';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://solidis.vcms.io'),
   title: 'Solidis | Zero-dependency RESP client for Redis',
   description:
     'The fastest Redis client for Node.js. Zero dependencies, full RESP2/RESP3 support, TypeScript-first. Up to 2x faster than ioredis.',

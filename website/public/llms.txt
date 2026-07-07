@@ -1,0 +1,34 @@
+# Solidis
+
+> The fastest Redis & Valkey client for Node.js. Zero dependencies, full RESP2/RESP3 support, TypeScript-first, 2x+ faster than ioredis, < 29KB minimum bundle.
+
+Solidis is a zero-dependency RESP (Redis Serialization Protocol) client for Node.js, published on npm as `@vcms-io/solidis`. It ships 383 commands, dual ESM/CJS builds, and two clients: the batteries-included `SolidisFeaturedClient` and the tree-shakable `SolidisClient` with `.extend()` for minimal bundles.
+
+## Docs
+
+- [Getting Started](https://solidis.vcms.io/getting-started): Installation, client setup, and first commands
+- [API Reference](https://solidis.vcms.io/api-reference): Classes, methods, and interfaces
+- [Architecture](https://solidis.vcms.io/architecture): Internal structure and SOLID design principles
+- [Benchmarks](https://solidis.vcms.io/benchmarks): Performance comparisons against ioredis
+- [FAQ](https://solidis.vcms.io/faq): Common questions and answers
+
+## Tutorials
+
+- [Session Store](https://solidis.vcms.io/tutorials/session-store): Redis-based session store for web applications
+- [Cache Layer](https://solidis.vcms.io/tutorials/cache-layer): High-performance caching for database queries and API calls
+- [Rate Limiting](https://solidis.vcms.io/tutorials/rate-limiting): Redis-based rate limiting strategies
+- [Real-time Chat](https://solidis.vcms.io/tutorials/chat-app): Pub/Sub chat with WebSockets
+- [Distributed Locking](https://solidis.vcms.io/tutorials/distributed-locking): Coordinating operations across processes
+- [Job Queue](https://solidis.vcms.io/tutorials/job-queue): Background job processing with Redis lists
+
+## Source
+
+- [Full documentation (README, Markdown)](https://raw.githubusercontent.com/vcms-io/solidis/main/README.md): Quick start, features, configuration, architecture, and extensions
+- [GitHub repository](https://github.com/vcms-io/solidis)
+- [npm package](https://www.npmjs.com/package/@vcms-io/solidis)
+
+## Optional
+
+- [Contributing](https://solidis.vcms.io/contributing): How to contribute to Solidis
+- [Product Updates](https://solidis.vcms.io/updates): Release notes and changelog
+- [Documentation in Korean (README.ko.md, Markdown)](https://raw.githubusercontent.com/vcms-io/solidis/main/README.ko.md)
