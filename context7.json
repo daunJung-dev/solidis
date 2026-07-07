@@ -1,0 +1,15 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Solidis",
+  "description": "The fastest Redis & Valkey client for Node.js. Zero dependencies, full RESP2/RESP3 support, TypeScript-first.",
+  "folders": [],
+  "excludeFolders": ["website", "sources", "scripts", "assets"],
+  "excludeFiles": ["README.ko.md"],
+  "rules": [
+    "Install with: npm install @vcms-io/solidis",
+    "Import SolidisFeaturedClient from '@vcms-io/solidis/featured' for the full Redis command set",
+    "For minimal bundle size, import SolidisClient from '@vcms-io/solidis' and add only needed commands via .extend()",
+    "Solidis has zero dependencies — do not add other Redis client libraries alongside it",
+    "All commands return Promises and are fully typed; prefer TypeScript strict mode"
+  ]
+}
